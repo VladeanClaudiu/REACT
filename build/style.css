@@ -1,0 +1,85 @@
+body {
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin: 0;
+  }
+  h1, h2, p, ul, li {
+    font-family: sans-serif;
+  }
+  ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+  }
+  ul.header {
+    background-color: #111;
+    padding: 0;
+  }
+  ul.header li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+  }
+  .content {
+    background-color: #FFF;
+    padding: 20px;
+  }
+  .content h2 {
+    padding: 0;
+    margin: 0;
+  }
+  .content li {
+    margin-bottom: 10px;
+  }
+  
+.title {
+    color: crimson;
+    text-align: center;
+    margin-top: 30px;
+    font-variant: small-caps;
+}
+
+.Class100 {
+    line-height: 100px;
+    background-color: #95a5aa;
+}
+
+.summonerName {
+    color: aliceblue;
+    font-size: 16px;
+    margin-bottom: 70px;
+    line-height: 0%;
+}
+
+.game-mode{
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+    float: right;
+}
+
+.game-player{
+    float: left; 
+    margin: 2px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.playerHeadings{
+    font-size: 10px;
+    margin-bottom: 10%;
+    color: firebrick;
+    margin-left: 18px;
+}
+
+.playerHeadingC{
+    font-size: 10px;
+    margin-top: -37px;
+    color: firebrick;
+}
+
+.headingData{
+    color: palegreen;
+}
